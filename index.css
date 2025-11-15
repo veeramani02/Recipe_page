@@ -1,0 +1,124 @@
+body{
+    background-color:rgba(238, 182, 182, 0.869); 
+    display: flex;
+    justify-content: center;
+    align-items: center;     
+}
+main{
+    background-color: white;
+ 
+    width: 700px;
+    height: max-content;
+    margin-top:30px;
+}
+.image-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+}
+img{
+    width:100%;
+    width: 600px;
+    height: 300px;
+    border-radius: 10px;
+}
+p{
+     font-family: 'Outfit';
+    
+    font-weight: 400;
+}
+h1{
+  
+   font-family:'Young Serif';
+    font-weight: 600;
+    color:hsl(24, 5%, 18%)
+}
+li{
+    font-family:'Outfit' ;
+    font-weight: 400;
+}
+td{
+    font-family:'Outfit' ;
+    font-weight: 400;
+}
+h3{
+    font-family:'Young Serif';
+    font-weight: 600;
+    color:hsl(332, 51%, 32%)
+}
+span{
+    font-family:'Outfit' ;
+    font-weight: 600;
+}
+.ins,.ing,.nut{
+font-family:'Young Serif';
+    font-weight: 500;
+    color:hsl(14, 45%, 36%)
+}
+td{
+    border-bottom: 1px solid black;
+    padding: 10px;
+    
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 10px;
+    width:600px;
+}
+td:nth-child(2){
+    color:hsl(14, 45%, 36%)
+}
+tr:last-child td{
+    border-bottom: none;
+}
+.section1,.section3,.section4{
+    width:650px;
+    padding-left:50px;
+}
+.section2{
+    width:500px;
+    padding-left:60px;
+}
+.section3,.section4{
+    border-bottom: 1px solid black;
+   
+}
+.section5{
+    width:650px;
+    padding-left:40px;
+}
+
+main {
+  width: 100%;
+  max-width: 700px;   
+  margin: 30px auto;
+  padding: 20px;     }
+
+
+.image-container img {
+  width: 100%;
+  max-width: 600px;
+  height: auto;
+  display:block;
+}
+
+
+.section1, .section2, .section3, .section4, .section5 {
+  width: 100%;
+  padding: 0 20px;  
+  box-sizing: border-box;
+}
+
+
+.table-wrap { overflow-x: auto; }
+table { width: 100%; border-collapse: collapse; }
+td, th { padding: 10px; border-bottom: 1px solid #000; }
+
+
+@media (max-width: 480px) {
+  main { padding: 12px; margin: 12px auto; }
+  h1 { font-size: 1.25rem; }
+  p, li, td { font-size: 0.9rem; }
+  .section1, .section2, .section3, .section4, .section5 { padding: 0 12px; }
+}
